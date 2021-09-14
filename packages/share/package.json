@@ -1,6 +1,6 @@
 {
   "name": "@xingyejiancheng/share",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "lixing <775822046@qq.com>",
   "homepage": "",
@@ -22,7 +22,7 @@
     "build": "npm run tsc"
   },
   "dependencies": {
-    "@xingyejiancheng/utils": "^0.0.0",
+    "@xingyejiancheng/utils": "^0.0.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
