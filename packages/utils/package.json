@@ -19,8 +19,9 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
+    "clean": "rimraf es",
     "tsc": "tsc --project tsconfig.json",
-    "build": "npm run tsc"
+    "build": "npm run clen && npm run tsc"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
