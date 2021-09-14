@@ -1,4 +1,5 @@
 import isArray from '@xingyejiancheng/utils'
 
-const ggg = isArray(6666)
-
+export default function gt(value:any){
+   return isArray(value)
+}
