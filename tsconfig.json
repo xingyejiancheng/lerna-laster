@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "module": "es6",
+    "baseUrl": "./",
     "declaration": true,
     "noImplicitAny": false,
     "removeComments": true,
@@ -11,7 +12,11 @@
     "sourceMap": true,
     "lib": [
       "es6"
-    ]
+    ],
+    "moduleResolution": "node",
+    "paths": {
+      "__tests__/*": ["__tests__/*"],
+    }
   },
   "exclude": ["node_modules", "**/__tests__/**"],
 }

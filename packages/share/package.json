@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "tsc": "tsc --project tsconfig.json",
-    "build": "yarn tsc"
+    "build": "npm run tsc"
   },
   "dependencies": {
     "@xingyejiancheng/utils": "^0.0.0",

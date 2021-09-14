@@ -6,6 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "main": "es/index.js",
+  "module": "es/index.js",
   "directories": {
     "lib": "es",
     "test": "__tests__"

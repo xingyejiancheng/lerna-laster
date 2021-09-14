@@ -1,4 +1,4 @@
-import isArray from '@xingyejiancheng/utils';
-export default function() {
-    console.log(isArray(66666))
-}
+import isArray from '@xingyejiancheng/utils'
+
+const ggg = isArray(6666)
+
